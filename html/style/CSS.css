@@ -1,0 +1,71 @@
+/*瑟瑟发抖 害怕*/
+body,ul,p,h1,h2,h3,h4,dl,dd,form,input,textarea,select
+{
+    padding:0px;margin:0px;font-family:arial;
+}
+li{list-style:none;}
+img{border:none;}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+body {background: #ffffff url(../images/body_bg.png) repeat-x;}
+#top {position: absolute; top: 4px;left: 226px; width: 960px;height:30px;margin: 0 auto;}
+
+.top_menu {float:left;}
+.top_menu li {float: left;background: url(../images/top_tb.png)no-repeat
+     right 8px;font-size: 13px;line-height: 22px;padding-right: 18px;padding-left: 15px;}
+.top_menu a {color: #c0c0c0;}
+.top_menu a:hover {color: #fff;}
+.top_menu .no_dot {background: none;margin-right: 10px;}
+
+.top_bar {float: right;}
+.top_bar li {float: left;height:30px ;color:#fff;font-weight: bold;font-size: 13px;line-height: 22px;}
+.top_bar .phone {background: url(../images/top_tb.png)no-repeat 4px -29px;padding:0 38px;}
+.top_bar .help {background: url(../images/top_tb.png)no-repeat -4px -65px;padding:0 38px;}
+.top_bar .help a{color: #fff;}
+.top_bar .space {margin-right: 10px;}
+ 
+#header {width: 960px;height: 100px;margin: 0 auto; position: relative;top:30px;background: url(../images/header_bg.png);}
+#shopping {width: 260px;height: 100px;background:url(../images/shopping.png) no-repeat;position: relative;}
+#shopping p {color: #f7f7f7;font-size: 20px;font-family: Arial;padding:28px 0 0 84px;}
+#shopping a {display: block; width: 114px;height: 23px;background: url(../images/shopping.png) no-repeat 0 -101px;position: absolute;top: 64px;left: 104px;
+font-size: 15px;color:#ffc200;text-decoration: none;font-weight:bold;text-align: center;line-height: 23px;}
+#shopping a:hover {color: #ffe388;}
+#header h1 {width: 238px;position: absolute;top: 0px;left: 50%;margin-left: -119px;}
+
+#header .search {top:34px ;right: 0;}
+.search {width: 292px;height: 31px;background: url(../images/search.png)no-repeat;position: absolute;}
+.search .text {position: absolute;top: 0;left: 20px;width: 250px;height: 30px;background: none;border: none;font-size: 13px;color: #666;outline: none;}
+.search .btn {position: absolute;top: 0;right: 0;width: 42px;height: 30px;background: none;border: none;}
+
+#nav {height: 36px;width: 960px;margin: 0 auto;padding-top: 30px;}
+#nav li{float: left;height: 28px;margin-right: 2px;}
+#nav a{float: left;height: 28px;text-decoration: none;color: #fff;font-size: 14px;
+    font-family: Arial;line-height: 28px;padding-top: 10px;}
+#nav strong{float: left;height: 28px;font-weight: normal;}
+#nav span{float: left;height: 28px;padding:0 16px;}
+
+#nav a:hover, #nav .active a:hover {background: url(../images/nav_active.png) repeat-x 0px -56px;}
+#nav a:hover strong, #nav .active strong {background: url(../images/nav_active.png) no-repeat }
+#nav a:hover span, #nav .active span {background: url(../images/nav_active.png) no-repeat right -28px;}
+
+#content {width: 1000px;margin: 24px auto 0;background: url(../images/content_bg.png) repeat-y -1000px 0;}
+#content_top {width: 1000px;background: url(../images/content_bg.png) no-repeat;}
+#content_bottom {width: 1000px;background: url(../images/content_bg.png)no-repeat -2000px bottom;padding-top: 10px;}
+
+#ad {width:940px ;height: 300px;position: relative;top: 10px; margin: 0 auto;}
+#ad ul {position: absolute;top: 0;left: 0;z-index: 1;}
+#ad li {position: absolute;top: 0;left: 0;}
+#ad h2 {position: absolute;bottom: 10px;left: 0;z-index: 3;width: 268px;text-align: center; font-size: 25px;
+    font-family: "Arial"; color: rgb(255, 198, 0);font-weight: bold;}
+#ad p {left: 268px;bottom: 7px; font-size: 13px;font-family: "Arial";color: rgb(255, 204, 204);line-height: 16px;
+text-align: left;position: absolute;z-index: 3;line-height: 16px;width: 630px;}
+#ad .bg {width: 940px;height: 52px;background: #000;filter: alpha(opacity:0.8);
+    opacity: 0.8;position: absolute;bottom:0;left: 0;z-index: 2;}
+
+#main {width: 942px;margin: 0 auto;}
+#side {width: 210px;float: left;}
+#wrap {width: 706px;float: right;}
+
+.clear {zoom:1;}
+.clear:after{content: '';display: block;clear: both;}
+
